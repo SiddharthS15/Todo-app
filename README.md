@@ -42,4 +42,10 @@ A modern, responsive To-Do List web app built using **HTML**, **CSS**, and **Van
 ---
 
 ## 📁 Folder Structure
-
+TodoApp/
+├── index.html
+├── style.css
+├── script.js
+├── img.png
+├── README.md
+└── screenshots/
