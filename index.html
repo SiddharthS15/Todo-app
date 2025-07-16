@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Modern Navbar and Landing Page -->
+    <nav class="navbar">
+      <div class="logo">TodoApp</div>
+      <ul class="nav-links">
+        <li><a href="#home" id="home-link">Home</a></li>
+        <li><a href="#tasks" id="tasks-link">Tasks</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="landing" class="landing-section">
+        <img src="img.png" alt="Productivity" class="landing-img">
+        <h1>Welcome to TodoApp</h1>
+        <p>Organize your day with a simple, modern to-do list. Add, edit, and manage your tasks easily.</p>
+        <p class="quote">"The secret of getting ahead is getting started."</p>
+        <button id="get-started-btn">Get Started</button>
+      </section>
+      <section id="todo-section" class="todo-section" style="display:none;">
+        <div class="container">
+          <h2>Your Tasks</h2>
+          <div class="input-container">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+           
+            <button id="add-task-btn">Add</button>
+          </div>
+          <ul id="task-list"></ul>
+          <div class="filters">
+            <button id="show-all">All</button>
+            <button id="show-active">Active</button>
+            <button id="show-completed">Completed</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
